@@ -1,7 +1,7 @@
 function toCase(text) {
   // write your code here
 
-	return `${text}-${text.toUpperCase()}`;
+	return `${text.toLowerCase()}-${text.toUpperCase()}`;
 }
 
 
